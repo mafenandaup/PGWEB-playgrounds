@@ -25,7 +25,9 @@ class Aluno{
 
 
 
-function myCode(){
+function myCode() {
+    //os objetos são delimitados dentro de chaves.
+    //como "Pais" é um objeto, ele acaba criando chaves dentro das chaves.
     let pais = new Pais('alberto', 'amanda')
     let historico = ['Cálculo 1', 'POO', 'Arquitetura de computadores']
     // declarando parâmetros/variáveis
