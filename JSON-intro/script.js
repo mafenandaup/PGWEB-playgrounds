@@ -36,4 +36,7 @@ function myCode() {
 
     let json = JSON.stringify(estudante);
     console.log(json);
+
+    // no JSON beautify, ele já organiza os objetos,
+    // que nem no thunder client
 }
