@@ -39,4 +39,7 @@ function myCode() {
 
     // no JSON beautify, ele já organiza os objetos,
     // que nem no thunder client
+// o PARSE transforma um json em um objeto.
+    let objRecover = JSON.parse(json)
+    console.log(objRecover);
 }
