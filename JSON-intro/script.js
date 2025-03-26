@@ -31,4 +31,7 @@ function myCode(){
     // declarando parâmetros/variáveis
     let estudante = new Aluno('Maria', '5592837', '21/06/2003', pais, historico); 
     console.log(estudante);
+
+    let json = JSON.stringify(estudante);
+    console.log(json);
 }
