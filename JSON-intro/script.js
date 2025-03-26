@@ -14,13 +14,20 @@ class Pais{
 class Aluno{
     //é um objeto que tem entre os atrivutos um outro objeto (pais)
     constructor(nome, cadastro, nascimento, pais, historico) {
-        
+        this.nome = nome;
+        this.cadastro = cadastro;
+        this.nascimento = nascimento;
+        this.pais = pais;
+        this.historico = historico;
     }
 
 }
 
 
 
-function myCode{
-
+function myCode(){
+    let pais = new Pais('alberto', 'amanda')
+    let historico = ['Cálculo 1', 'POO', 'Arquitetura de computadores']
+    let Aluno = ('Maria', '5592837', '21/06/2003', pais, historico)
+    // declarando parâmetros/variáveis
 }
